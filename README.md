@@ -1,12 +1,14 @@
 Задание 1
 Вывести имена пользователей и даты приёма на работу женщин-продавцов.
-SQL-запрос
 
+
+```sql
 SELECT username, hire_date
 FROM salespeople
 WHERE gender = 'Female'
 ORDER BY hire_date
 LIMIT 10;
+```
 
 Результат выполнения
 <img width="248" height="450" alt="1 jpg" src="https://github.com/user-attachments/assets/e5d26658-99f1-419d-b564-158510b33787" />
