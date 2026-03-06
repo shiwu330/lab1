@@ -5,7 +5,7 @@ WHERE gender = 'Female'
 ORDER BY hire_date
 LIMIT 10;
 
-<img width="1110" height="798" alt="image" src="https://github.com/shiwu330/lab1/blob/main/img/1.jpg.png" />
+<img width="248" height="450" alt="image" src="https://github.com/shiwu330/lab1/blob/main/img/1.jpg.png" />
 
 SELECT username, hire_date
 FROM salespeople
