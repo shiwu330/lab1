@@ -17,9 +17,11 @@ LIMIT 10;
 Найти все продажи после 1 января 2023 года.
 SQL-запрос
 
+```sql
 SELECT *
 FROM sales
-WHERE sales_transaction_date > '2023-01-01';
+WHERE sales_transaction_date > '2018-01-01';
+```
 
 Результат выполнения
 <img width="1390" height="754" alt="2 jpg" src="https://github.com/user-attachments/assets/a68f823c-a038-4c57-bc5b-de81c1f24b72" />
